@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso Legal — Álamo Del Bufalo</title>
+    <meta name="description" content="Aviso legal de Álamo Del Bufalo conforme a la Ley 34/2002 de Servicios de la Sociedad de la Información (LSSI-CE).">
+    <meta name="robots" content="noindex, follow">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230C0A07' rx='4'/><text x='16' y='24' text-anchor='middle' font-family='Georgia,serif' font-weight='700' font-size='22' fill='%23E2A829'>A</text><rect x='0' y='28' width='32' height='4' fill='%23D96A3B'/></svg>">
+    <meta name="theme-color" content="#0C0A07">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --accent: #E2A829;
+            --accent-bright: #F0B830;
+            --accent-glow: rgba(226, 168, 41, 0.4);
+            --orange: #D96A3B;
+            --cream: #F5E6C8;
+            --bg-primary: #0C0A07;
+            --bg-secondary: #12100A;
+            --text-primary: #F0EAD6;
+            --text-secondary: #A09880;
+            --text-muted: #6B6350;
+            --border: rgba(255, 235, 180, 0.06);
+            --border-accent: rgba(226, 168, 41, 0.2);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            padding: 0 2rem;
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(12, 10, 7, 0.97);
+            border-bottom: 1px solid var(--border-accent);
+            backdrop-filter: blur(20px);
+        }
+        .nav-logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.5rem;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            text-decoration: none;
+            text-shadow: 0 0 20px var(--accent-glow);
+        }
+        .nav-back {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .nav-back:hover { color: var(--accent); }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem 6rem;
+        }
+
+        .legal-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.65rem;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            color: var(--orange);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .legal-label::before {
+            content: '';
+            width: 30px; height: 2px;
+            background: linear-gradient(to right, var(--accent), var(--orange));
+            flex-shrink: 0;
+        }
+        .legal-title {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: clamp(2.5rem, 7vw, 4rem);
+            letter-spacing: 0.04em;
+            color: var(--cream);
+            line-height: 1;
+            margin-bottom: 0.6rem;
+        }
+        .legal-meta {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+            margin-bottom: 3rem;
+        }
+        .legal-divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, var(--border-accent), transparent);
+            margin: 2.5rem 0;
+        }
+
+        .legal-content { color: var(--text-secondary); font-size: 0.95rem; line-height: 1.85; }
+        .legal-content h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.6rem;
+            letter-spacing: 0.06em;
+            color: var(--cream);
+            margin: 3rem 0 0.8rem;
+        }
+        .legal-content h2:first-child { margin-top: 0; }
+        .legal-content h3 {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin: 2rem 0 0.6rem;
+        }
+        .legal-content p { margin-bottom: 1rem; }
+        .legal-content ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+        .legal-content li { margin-bottom: 0.4rem; }
+        .legal-content a { color: var(--accent); text-decoration: none; }
+        .legal-content a:hover { text-decoration: underline; }
+        .legal-content strong { color: var(--text-primary); font-weight: 600; }
+
+        .data-block {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-accent);
+            padding: 1.5rem 2rem;
+            margin: 1rem 0 1.5rem;
+            font-size: 0.9rem;
+            line-height: 2;
+        }
+        .data-block .placeholder {
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        footer {
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+        }
+        .footer-inner {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            text-align: center;
+        }
+        .footer-logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.2rem;
+            letter-spacing: 0.08em;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .footer-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .footer-links a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.65rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer-links a:hover { color: var(--accent); }
+        .footer-copy {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.6rem;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 600px) {
+            main { padding: 2.5rem 1.25rem 4rem; }
+            nav { padding: 0 1.25rem; }
+            .data-block { padding: 1.2rem 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="nav-logo">ÁLAMO DEL BUFALO</a>
+        <a href="index.html" class="nav-back">← Volver al inicio</a>
+    </nav>
+
+    <main>
+        <div class="legal-label">Legal</div>
+        <h1 class="legal-title">AVISO LEGAL</h1>
+        <p class="legal-meta">En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE)</p>
+
+        <div class="legal-content">
+
+            <h2>1. Datos identificativos de los titulares</h2>
+            <p>En cumplimiento de la obligación de información establecida en el artículo 10 de la LSSI-CE, se ponen a disposición de los usuarios los siguientes datos identificativos:</p>
+
+            <div class="data-block">
+                <strong>Titular 1</strong><br>
+                Nombre: Luis Álamo<br>
+                NIF/NIE: <span class="placeholder">[pendiente de completar]</span><br>
+                Dirección: <span class="placeholder">[pendiente de completar]</span><br>
+                Email: <a href="mailto:contacto@rdelbufalo.com">contacto@rdelbufalo.com</a>
+            </div>
+
+            <div class="data-block">
+                <strong>Titular 2</strong><br>
+                Nombre: Ricardo Del Bufalo<br>
+                NIF/NIE: <span class="placeholder">[pendiente de completar]</span><br>
+                Dirección: <span class="placeholder">[pendiente de completar]</span><br>
+                Email: <a href="mailto:contacto@rdelbufalo.com">contacto@rdelbufalo.com</a>
+            </div>
+
+            <div class="legal-divider"></div>
+
+            <h2>2. Objeto y actividad del sitio web</h2>
+            <p>El presente sitio web tiene carácter <strong>informativo y promocional</strong> de la actividad artística del dúo cómico-musical <strong>Álamo Del Bufalo</strong>, integrado por Luis Álamo y Ricardo Del Bufalo. La actividad comprende actuaciones de stand-up comedy, improvisación y música en directo.</p>
+            <p>No se realizan transacciones comerciales directas a través de este sitio web. Las entradas para los espectáculos se gestionan a través de plataformas de venta de terceros, con sus propias condiciones de uso.</p>
+
+            <div class="legal-divider"></div>
+
+            <h2>3. Propiedad intelectual e industrial</h2>
+            <p>Todos los contenidos de este sitio web —incluyendo, a título enunciativo y no limitativo, textos, imágenes, fotografías, diseño gráfico, logotipos, iconos, código fuente y cualquier otro elemento— son titularidad de <strong>Luis Álamo y Ricardo Del Bufalo</strong>, o han sido licenciados para su uso en este sitio con el correspondiente consentimiento de sus titulares.</p>
+            <p>Queda expresamente prohibida, salvo autorización escrita y expresa de los titulares, cualquier forma de reproducción, distribución, comunicación pública, transformación o cualquier otra forma de explotación de los contenidos, con independencia del medio utilizado para ello.</p>
+            <p>El incumplimiento de lo anterior podrá ser constitutivo de las infracciones establecidas en la legislación vigente en materia de propiedad intelectual e industrial.</p>
+
+            <div class="legal-divider"></div>
+
+            <h2>4. Condiciones de uso</h2>
+            <p>El acceso y uso de este sitio web es libre y gratuito. El usuario se compromete a hacer un uso lícito de los contenidos y a no emplearlos con fines contrarios a la ley, la moral, el orden público o los derechos de terceros.</p>
+            <p>Los titulares se reservan el derecho a modificar en cualquier momento los contenidos del sitio web, así como la presente información legal, sin previo aviso.</p>
+
+            <div class="legal-divider"></div>
+
+            <h2>5. Exención de responsabilidad</h2>
+
+            <h3>Exactitud de los contenidos</h3>
+            <p>Los titulares elaboran los contenidos de este sitio con la mayor diligencia posible, pero no garantizan la ausencia de errores, inexactitudes u omisiones, ni que los contenidos estén siempre actualizados. La información sobre shows, fechas y precios puede cambiar sin previo aviso; se recomienda verificar la disponibilidad directamente en las plataformas de venta de entradas.</p>
+
+            <h3>Disponibilidad del servicio</h3>
+            <p>Los titulares no garantizan la disponibilidad continuada del sitio web ni se responsabilizan de las interrupciones, errores técnicos, virus informáticos o daños de cualquier naturaleza que pudieran derivarse del acceso o uso del mismo.</p>
+
+            <h3>Sitios web de terceros</h3>
+            <p>Este sitio puede contener enlaces a sitios web de terceros (Instagram, plataformas de venta de entradas, etc.). Estos enlaces se facilitan a título meramente informativo. Los titulares no asumen ninguna responsabilidad sobre el contenido, la política de privacidad o la seguridad de esos sitios, que se rigen por sus propias condiciones de uso.</p>
+
+            <div class="legal-divider"></div>
+
+            <h2>6. Legislación aplicable y jurisdicción</h2>
+            <p>La presente información legal y el uso de este sitio web se rigen íntegramente por la <strong>legislación española</strong>. Para cualquier controversia que pudiera derivarse del acceso o uso de este sitio web, los titulares y los usuarios se someten expresamente a la jurisdicción de los <strong>Juzgados y Tribunales de España</strong>, con renuncia expresa a cualquier otro fuero que pudiera corresponderles.</p>
+
+            <div class="legal-divider"></div>
+
+            <p style="font-size: 0.88rem; color: var(--text-muted);">Para cualquier consulta o comunicación legal, puede dirigirse a: <a href="mailto:contacto@rdelbufalo.com">contacto@rdelbufalo.com</a></p>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <a href="index.html" class="footer-logo">ÁLAMO DEL BUFALO</a>
+            <div class="footer-links">
+                <a href="aviso-legal.html">Aviso Legal</a>
+                <a href="politica-de-privacidad.html">Política de Privacidad</a>
+                <a href="politica-de-cookies.html">Política de Cookies</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Álamo Del Bufalo</p>
+        </div>
+    </footer>
+
+</body>
+</html>
